@@ -111,6 +111,369 @@ h1 {
   font-family: Proxima Nova;
   src: url("../fonts/ProximaNovaRegular.woff");
   font-weight: 400; }
+body {
+  background: #0c1514;
+  color: #fff; }
+
+h1 {
+  color: #63c5bc; }
+
+.faded {
+  color: #777; }
+
+#quiz-counter {
+  color: #88449a; }
+
+.quiz-container {
+  padding: 0.25em;
+  margin: 1em auto; }
+
+.quiz-container a {
+  text-decoration: none;
+  color: #333; }
+
+#quiz-header {
+  position: absolute;
+  left: calc( 50% - 157px );
+  margin-top: 460px; }
+
+#quiz-header,
+#quiz-start-screen,
+#quiz-results-screen,
+#quiz-counter {
+  text-align: center; }
+
+.question {
+  font-size: 1.25em; }
+
+.answers {
+  list-style: none;
+  padding: 0; }
+
+.answers a {
+  display: block;
+  margin-bottom: 0.5em;
+  background: #fff; }
+
+.answers a.correct {
+  background: #090; }
+
+.answers a.incorrect {
+  background: #c00; }
+
+.answers a.correct,
+.answers a.incorrect {
+  color: #fff; }
+
+#quiz-controls {
+  background: #63c5bc;
+  color: #111;
+  padding: 0.25em 0.5em 0.5em;
+  text-align: center; }
+
+#quiz-results {
+  font-size: 1.25em; }
+
+#quiz-buttons a,
+.quiz-container .quiz-button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: #88449a;
+  color: #fff; }
+
+#quiz-buttons a {
+  background: #fff;
+  color: #333; }
+
+/* Quiz State Overrides */
+.quiz-results-state #quiz-controls {
+  background: none;
+  padding: 0; }
+
+.quiz-results-state #quiz-buttons a {
+  background: #88449a;
+  color: #fff; }
+
+@font-face {
+  font-family: Rubik-Dirt;
+  src: url("../fonts/RubikDirtRegular.woff"); }
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/ProximaNovaBlack.woff");
+  font-weight: 900; }
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/ProximaNovaBold.woff");
+  font-weight: 700; }
+@font-face {
+  font-family: Proxima Nova;
+  src: url("../fonts/ProximaNovaRegular.woff");
+  font-weight: 400; }
+.win {
+  background: url("../img/backgraund-quiz.png") 50% 10%/cover no-repeat;
+  background-color: #171616; }
+  @media (max-width: 600px) {
+    .win {
+      margin-bottom: 50px; } }
+  .win .win__container {
+    max-width: 1100px;
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #005483;
+    border-radius: 15px;
+    margin: 50px auto 100px; }
+    @media (max-width: 1170px) {
+      .win .win__container {
+        max-width: 950px;
+        margin: 100px auto; } }
+  @media (max-width: 1170px) and (max-width: 979px) {
+    .win .win__container {
+      width: 95%; } }
+
+  .win__baner {
+    width: 100%; }
+    .win__baner img {
+      display: block;
+      width: 95%;
+      height: auto;
+      margin: 35px auto 0px;
+      border-radius: 6px; }
+      @media (max-width: 979px) {
+        .win__baner img {
+          width: 100%; } }
+      @media (max-width: 600px) {
+        .win__baner img {
+          margin: 0 auto; } }
+  .win__image-item {
+    width: 286px;
+    height: auto; }
+  .win__text-end {
+    color: #FFF;
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 106%;
+    text-transform: uppercase; }
+  .win__text {
+    color: #FFF;
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 106%;
+    text-transform: uppercase;
+    margin-top: 50px; }
+  .win__text-code {
+    font-family: "Calibri";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 106%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F59000;
+    text-shadow: 0px 0px 18px rgba(245, 144, 0, 0.77);
+    margin-top: 35px; }
+  .win__text-two {
+    font-family: "Calibri";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 106%;
+    color: #FFFFFF;
+    margin-top: 35px; }
+  .win__bonus {
+    font-family: "Calibri";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 106%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F59000;
+    text-shadow: 0px 0px 18px rgba(245, 144, 0, 0.77);
+    margin-top: 35px;
+    padding: 20px 92px;
+    border: 7px double rgba(245, 144, 0, 0.77); }
+    @media (max-width: 600px) {
+      .win__bonus {
+        padding: 15px 42px; } }
+  .win__link {
+    font-family: "Ghoulish Fright AOE";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 106%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 50px;
+    display: block;
+    padding: 16px 0px;
+    border-radius: 30px;
+    max-width: 264px;
+    width: 100%;
+    background-color: #F85032;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s; }
+  .win__link:hover {
+    background-color: #0B650B; }
+  .win__img-footer {
+    margin-top: 75px; }
+    @media (max-width: 600px) {
+      .win__img-footer {
+        margin-top: 50px; } }
+  .win .bonus {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 40px 90px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 15px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.2); }
+    .win .bonus h3 {
+      color: #FFF;
+      text-align: center;
+      text-shadow: 0px 5px 0px rgba(0, 45, 70, 0.6);
+      font-family: Proxima Nova;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 106%;
+      text-transform: uppercase; }
+    .win .bonus h2 {
+      color: #FFF;
+      text-align: center;
+      text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.6);
+      font-family: Rubik-Dirt;
+      font-size: 140px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 106%;
+      text-transform: uppercase; }
+    .win .bonus h4 {
+      color: #FFF;
+      text-align: center;
+      text-shadow: 0px 5px 0px rgba(0, 45, 70, 0.6);
+      font-family: Proxima Nova;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 106%;
+      text-transform: uppercase; }
+    .win .bonus .shadow {
+      margin-top: 25px;
+      border-radius: 20px;
+      background: #154B69; }
+      .win .bonus .shadow p {
+        color: #FFF;
+        text-align: center;
+        text-shadow: 0px 5px 0px rgba(0, 45, 70, 0.6);
+        font-family: Proxima Nova;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 106%;
+        text-transform: uppercase;
+        padding: 20px 35px; }
+  .win .finish-link {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .win .finish-link .restart {
+      padding: 20px 55px;
+      margin: 0 25px;
+      border-radius: 20px;
+      border: 2px solid #FFF;
+      background: rgba(255, 255, 255, 0.2);
+      color: #FFF;
+      text-align: center;
+      font-family: Proxima Nova;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 106%;
+      text-transform: uppercase;
+      text-decoration: none;
+      -webkit-transition: 0.4s all;
+      transition: 0.4s all; }
+      .win .finish-link .restart:hover {
+        -webkit-box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 80.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46;
+                box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 80.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46; }
+    .win .finish-link .take-bonus {
+      padding: 20px 55px;
+      margin: 0 25px;
+      border-radius: 20px;
+      background: linear-gradient(84deg, #F4361F 0%, #FF6653 100%);
+      color: #FFF;
+      text-align: center;
+      font-family: Proxima Nova;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 106%;
+      text-transform: uppercase;
+      text-decoration: none;
+      -webkit-transition: 0.4s all;
+      transition: 0.4s all; }
+      .win .finish-link .take-bonus:hover {
+        -webkit-box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 80.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46;
+                box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 80.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46; }
+
+.win-header-text {
+  margin-top: 100px; }
+  .win-header-text h2 {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.6);
+    font-family: Rubik-Dirt;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 106%;
+    text-transform: uppercase;
+    display: block; }
+  .win-header-text h3 {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.6);
+    font-family: Rubik-Dirt;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 106%;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 12px; }
+
 #quiz-buttons a, .quiz-container .quiz-button {
   color: #FFF;
   text-align: center;
@@ -209,7 +572,7 @@ h1 {
 
 .body-questions {
   background: url("../img/backgraund-quiz.png") 50% 10%/cover no-repeat;
-  background-color: #171616; }
+  background-color: #002d46; }
 
 #quiz-response {
   max-width: 910px;
@@ -233,9 +596,16 @@ h1 {
   position: relative;
   bottom: -5px; }
 
-#quiz-start-screen {
-  width: 1100px;
+@media (max-width: 1170px) {
+  #quiz-header {
+    margin-top: 400px; } }
+
+.content {
+  max-width: 1100px;
+  width: 100%;
   margin: 0 auto; }
+  .content .image {
+    width: 98%; }
 
 .quiz-start-screen-text {
   color: #FFF;
@@ -255,6 +625,9 @@ h1 {
   position: absolute;
   left: calc( 50% - 350px );
   top: 130px; }
+  @media (max-width: 1170px) {
+    .header-text {
+      top: 50px; } }
   .header-text h2 {
     color: #FFF;
     text-align: center;
@@ -276,61 +649,104 @@ h1 {
     line-height: 106%;
     text-transform: uppercase; }
 
+.image-question {
+  position: relative;
+  left: calc(50% - 600px);
+  border-radius: 15px; }
+  @media (max-width: 1170px) {
+    .image-question {
+      width: 98%;
+      left: calc(50% - 485px); } }
+
+.up-header-text {
+  position: absolute;
+  top: -232px;
+  left: calc(50% - 230px);
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.6);
+  font-family: Rubik-Dirt;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 106%;
+  text-transform: uppercase; }
+  @media (max-width: 1170px) {
+    .up-header-text {
+      top: -170px; } }
+
+.down-header-text {
+  position: absolute;
+  top: -192px;
+  left: calc(50% - 290px);
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.6);
+  font-family: Rubik-Dirt;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 106%;
+  text-transform: uppercase; }
+  @media (max-width: 1170px) {
+    .down-header-text {
+      top: -134px; } }
+
 .mobile-1 {
   position: absolute;
   bottom: 513px;
   left: calc(50% - 555px); }
-  @media only screen and (max-width: 1000px) {
+  @media (max-width: 1170px) {
     .mobile-1 {
-      display: none !important; } }
+      display: none; } }
 
 .mobile-2 {
   position: absolute;
   bottom: 429px;
   left: calc(50% - 555px); }
-  @media only screen and (max-width: 1000px) {
+  @media (max-width: 1170px) {
     .mobile-2 {
-      display: none !important; } }
+      display: none; } }
 
 .mobile-3 {
   position: absolute;
   bottom: 429px;
   left: calc(50% - 555px); }
-  @media only screen and (max-width: 1000px) {
+  @media (max-width: 1170px) {
     .mobile-3 {
-      display: none !important; } }
+      display: none; } }
 
 .mobile-4 {
   position: absolute;
   bottom: 429px;
   left: calc(50% - 555px); }
-  @media only screen and (max-width: 1000px) {
+  @media (max-width: 1170px) {
     .mobile-4 {
-      display: none !important; } }
+      display: none; } }
 
 .mobile-5 {
   position: absolute;
   bottom: 396px;
   left: calc(50% - 555px); }
-  @media only screen and (max-width: 1000px) {
+  @media (max-width: 1170px) {
     .mobile-5 {
-      display: none !important; } }
+      display: none; } }
 
 .mobile-6 {
   position: absolute;
   bottom: 396px;
   left: calc(50% - 555px); }
-  @media only screen and (max-width: 1000px) {
+  @media (max-width: 1170px) {
     .mobile-6 {
-      display: none !important; } }
+      display: none; } }
 
 .mobile-7 {
   position: absolute;
   bottom: 454px;
   left: calc(50% - 555px); }
-  @media only screen and (max-width: 1000px) {
+  @media (max-width: 1170px) {
     .mobile-7 {
-      display: none !important; } }
+      display: none; } }
 
 @font-face {
   font-family: Rubik-Dirt;
@@ -618,9 +1034,6 @@ h1 {
   border: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
-
-body {
-  overflow: auto; }
 
 .body {
   background: url("../img/backgraund-main.png") 50% 0/cover no-repeat;

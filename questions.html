@@ -60,8 +60,8 @@
       <div id="quiz-header">
         <img src="img/3-life.png" id="image-life">
       </div>
-      <div id="quiz-start-screen">
-        <img src="img/start-baner.png" alt="baner">
+      <div id="quiz-start-screen" class="content">
+        <img src="img/start-baner.png" class="image" alt="baner">
         <p class="quiz-start-screen-text">seven questions await you in the quiz
           the more correct answers you get, the better bonus you get!<br>
           if you’re ready, click the button below!</p>
@@ -73,7 +73,8 @@
     <div id="quesions__img">
       <img src="img/question-back-two.png" id="img" alt="item">
     </div>
-  </div>  
+  </div>
+  <script src="dist/winter.js"></script>  
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
@@ -121,7 +122,7 @@
       counterFormat: 'Question %current of %total',
       questions: [
         { 
-          'q': '<img style="position: relative; left: calc(50% - 600px); border-radius: 15px;" src="img/question-one.png"> <br> <p style="font-family: Proxima Nova; font-style: normal; font-weight: 900; font-size: 30px; max-width: 910px; line-height: 106%; text-align: center; text-transform: uppercase; color: #FFFFFF; margin: 130px auto 50px;">In which country is it considered a good omen to break plates on someone`s door for good luck on New Year`s?</p> <h2 style="position: absolute; top: -232px; left: calc(50% - 230px); color: #FFF; text-align: center; text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60); font-family: Rubik-Dirt; font-size: 36px; font-style: normal; font-weight: 400; line-height: 106%; text-transform: uppercase;">Merry Christmas quiz</h2><h3 style="position: absolute; top: -192px; left: calc(50% - 290px); color: #FFF; text-align: center; text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60); font-family: Rubik-Dirt; font-size: 96px; font-style: normal; font-weight: 400; line-height: 106%; text-transform: uppercase;">Question 1</h3>',
+          'q': '<img class="image-question"  src="img/question-one.png"> <br> <p style="font-family: Proxima Nova; font-style: normal; font-weight: 900; font-size: 30px; max-width: 910px; line-height: 106%; text-align: center; text-transform: uppercase; color: #FFFFFF; margin: 130px auto 50px;">In which country is it considered a good omen to break plates on someone`s door for good luck on New Year`s?</p> <h2 class="up-header-text">Merry Christmas quiz</h2><h3 class="down-header-text">Question 1</h3>',
           'options': [
             '<p id="0" class="false-button">A) France</p>',
             '<p id="1" class="true-button">B) Denmark</p>',
@@ -132,7 +133,7 @@
           'incorrectResponse': "In Denmark, there is a tradition of breaking dishes on friends' doors on New Year's Eve. The more shards on the doorstep, the more friends the hosts have, bringing increased luck in the new year. <img class='mobile-1' style='border-radius: 15px;' src='img/question-one-true.png'>"
         },
         {
-          'q': '<img style="position: relative; left: calc(50% - 600px); border-radius: 15px;" src="img/question-two.png"> <br> <p style="font-family: Proxima Nova; font-style: normal; font-weight: 900; font-size: 30px; max-width: 910px; line-height: 106%; text-align: center; text-transform: uppercase; color: #FFFFFF; margin: 130px auto 50px;">"Winter is Coming" is the motto of which family in "Game of Thrones"?</p> <h2 style="position: absolute; top: -232px; left: calc(50% - 230px); color: #FFF; text-align: center; text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60); font-family: Rubik-Dirt; font-size: 36px; font-style: normal; font-weight: 400; line-height: 106%; text-transform: uppercase;">Merry Christmas quiz</h2><h3 style="position: absolute; top: -192px; left: calc(50% - 290px); color: #FFF; text-align: center; text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60); font-family: Rubik-Dirt; font-size: 96px; font-style: normal; font-weight: 400; line-height: 106%; text-transform: uppercase;">Question 2</h3>',
+          'q': '<img class="image-question"  src="img/question-two.png"> <br> <p style="font-family: Proxima Nova; font-style: normal; font-weight: 900; font-size: 30px; max-width: 910px; line-height: 106%; text-align: center; text-transform: uppercase; color: #FFFFFF; margin: 130px auto 50px;">"Winter is Coming" is the motto of which family in "Game of Thrones"?</p> <h2 class="up-header-text">Merry Christmas quiz</h2><h3 class="down-header-text">Question 2</h3>',
           'options': [
             '<p id="10" class="true-button">A) House Stark</p>',
             '<p id="11" class="false-button">B) House Baratheon</p>',
@@ -143,7 +144,7 @@
           'incorrectResponse': '"Winter is Coming" is the ancestral motto of House Stark, rulers of the North. <img class="mobile-2" style="border-radius: 15px;" src="img/question-two-true.png">'
         },
         {
-          'q': '<img style="position: relative; left: calc(50% - 600px); border-radius: 15px;" src="img/question-three.png"> <br> <p style="font-family: Proxima Nova; font-style: normal; font-weight: 900; font-size: 30px; max-width: 910px; line-height: 106%; text-align: center; text-transform: uppercase; color: #FFFFFF; margin: 130px auto 50px;">In which of the following countries is the best place to observe the Northern Lights?</p> <h2 style="position: absolute; top: -232px; left: calc(50% - 230px); color: #FFF; text-align: center; text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60); font-family: Rubik-Dirt; font-size: 36px; font-style: normal; font-weight: 400; line-height: 106%; text-transform: uppercase;">Merry Christmas quiz</h2><h3 style="position: absolute; top: -192px; left: calc(50% - 290px); color: #FFF; text-align: center; text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60); font-family: Rubik-Dirt; font-size: 96px; font-style: normal; font-weight: 400; line-height: 106%; text-transform: uppercase;">Question 3</h3>',
+          'q': '<img class="image-question"  src="img/question-three.png"> <br> <p style="font-family: Proxima Nova; font-style: normal; font-weight: 900; font-size: 30px; max-width: 910px; line-height: 106%; text-align: center; text-transform: uppercase; color: #FFFFFF; margin: 130px auto 50px;">In which of the following countries is the best place to observe the Northern Lights?</p> <h2 class="up-header-text">Merry Christmas quiz</h2><h3 class="down-header-text">Question 3</h3>',
           'options': [
             '<p id="15" class="true-button">A) Iceland</p>',
             '<p id="16" class="false-button">B) Netherlands</p>',
@@ -154,7 +155,7 @@
           'incorrectResponse': 'Iceland is one of the few countries where you can witness the Northern Lights. <img class="mobile-3" style="border-radius: 15px;" src="img/question-three-true.png">'
         },
         {
-          'q': '<img style="position: relative; left: calc(50% - 600px); border-radius: 15px;" src="img/question-four.png"> <br> <p style="font-family: Proxima Nova; font-style: normal; font-weight: 900; font-size: 30px; max-width: 910px; line-height: 106%; text-align: center; text-transform: uppercase; color: #FFFFFF; margin: 130px auto 50px;">What animal is Rudolph from the famous Christmas song "Rudolph the Red-Nosed Reindeer"?</p> <h2 style="position: absolute; top: -232px; left: calc(50% - 230px); color: #FFF; text-align: center; text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60); font-family: Rubik-Dirt; font-size: 36px; font-style: normal; font-weight: 400; line-height: 106%; text-transform: uppercase;">Merry Christmas quiz</h2><h3 style="position: absolute; top: -192px; left: calc(50% - 290px); color: #FFF; text-align: center; text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60); font-family: Rubik-Dirt; font-size: 96px; font-style: normal; font-weight: 400; line-height: 106%; text-transform: uppercase;">Question 4</h3>',
+          'q': '<img class="image-question"  src="img/question-four.png"> <br> <p style="font-family: Proxima Nova; font-style: normal; font-weight: 900; font-size: 30px; max-width: 910px; line-height: 106%; text-align: center; text-transform: uppercase; color: #FFFFFF; margin: 130px auto 50px;">What animal is Rudolph from the famous Christmas song "Rudolph the Red-Nosed Reindeer"?</p> <h2 class="up-header-text">Merry Christmas quiz</h2><h3 class="down-header-text">Question 4</h3>',
           'options': [
             '<p id="20" class="false-button">A) Polar bear</p>',
             '<p id="21" class="true-button">B) North Pole reindeer</p>',
@@ -165,7 +166,7 @@
           'incorrectResponse': 'Rudolph is a reindeer in the song "Burl Ives - Rudolph the Red-Nosed Reindeer." <img class="mobile-4" style="border-radius: 15px;" src="img/question-four-true.png">' 
         },
         {
-          'q': '<img style="position: relative; left: calc(50% - 600px); border-radius: 15px;" src="img/question-five.png"> <br> <p style="font-family: Proxima Nova; font-style: normal; font-weight: 900; font-size: 30px; max-width: 910px; line-height: 106%; text-align: center; text-transform: uppercase; color: #FFFFFF; margin: 130px auto 50px;">In which country were Ugg boots invented?</p> <h2 style="position: absolute; top: -232px; left: calc(50% - 230px); color: #FFF; text-align: center; text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60); font-family: Rubik-Dirt; font-size: 36px; font-style: normal; font-weight: 400; line-height: 106%; text-transform: uppercase;">Merry Christmas quiz</h2><h3 style="position: absolute; top: -192px; left: calc(50% - 290px); color: #FFF; text-align: center; text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60); font-family: Rubik-Dirt; font-size: 96px; font-style: normal; font-weight: 400; line-height: 106%; text-transform: uppercase;">Question 5</h3>',
+          'q': '<img class="image-question"  src="img/question-five.png"> <br> <p style="font-family: Proxima Nova; font-style: normal; font-weight: 900; font-size: 30px; max-width: 910px; line-height: 106%; text-align: center; text-transform: uppercase; color: #FFFFFF; margin: 130px auto 50px;">In which country were Ugg boots invented?</p> <h2 class="up-header-text">Merry Christmas quiz</h2><h3 class="down-header-text">Question 5</h3>',
           'options': [
             '<p id="30" class="false-button">A) Norway</p>',
             '<p id="31" class="false-button">B) Canada</p>',
@@ -176,7 +177,7 @@
           'incorrectResponse': 'Ugg boots were first introduced, presumably, in Australia. <img class="mobile-5" style="border-radius: 15px;" src="img/question-five-true.png">'
         },
         {
-          'q': '<img style="position: relative; left: calc(50% - 600px); border-radius: 15px;" src="img/question-six.png"> <br> <p style="font-family: Proxima Nova; font-style: normal; font-weight: 900; font-size: 30px; max-width: 910px; line-height: 106%; text-align: center; text-transform: uppercase; color: #FFFFFF; margin: 130px auto 50px;">How many reindeer are in Santa`s sleigh?</p> <h2 style="position: absolute; top: -232px; left: calc(50% - 230px); color: #FFF; text-align: center; text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60); font-family: Rubik-Dirt; font-size: 36px; font-style: normal; font-weight: 400; line-height: 106%; text-transform: uppercase;">Merry Christmas quiz</h2><h3 style="position: absolute; top: -192px; left: calc(50% - 290px); color: #FFF; text-align: center; text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60); font-family: Rubik-Dirt; font-size: 96px; font-style: normal; font-weight: 400; line-height: 106%; text-transform: uppercase;">Question 6</h3>',
+          'q': '<img class="image-question"  src="img/question-six.png"> <br> <p style="font-family: Proxima Nova; font-style: normal; font-weight: 900; font-size: 30px; max-width: 910px; line-height: 106%; text-align: center; text-transform: uppercase; color: #FFFFFF; margin: 130px auto 50px;">How many reindeer are in Santa`s sleigh?</p> <h2 class="up-header-text">Merry Christmas quiz</h2><h3 class="down-header-text">Question 6</h3>',
           'options': [
             '<p id="40" class="false-button">A) 3</p>',
             '<p id="41" class="false-button">B) 6</p>',
@@ -187,7 +188,7 @@
           'incorrectResponse': 'Rudolph, Dasher, Dancer, Prancer, Vixen, Cupid, Comet, Donder, Blitzen. <img class="mobile-6" style="border-radius: 15px;" src="img/question-six-true.png">'
         },
         {
-          'q': '<img style="position: relative; left: calc(50% - 600px); border-radius: 15px;" src="img/question-seven.png"> <br> <p style="font-family: Proxima Nova; font-style: normal; font-weight: 900; font-size: 30px; max-width: 910px; line-height: 106%; text-align: center; text-transform: uppercase; color: #FFFFFF; margin: 130px auto 50px;">What did Harry Potter receive for his first Christmas?</p> <h2 style="position: absolute; top: -232px; left: calc(50% - 230px); color: #FFF; text-align: center; text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60); font-family: Rubik-Dirt; font-size: 36px; font-style: normal; font-weight: 400; line-height: 106%; text-transform: uppercase;">Merry Christmas quiz</h2><h3 style="position: absolute; top: -192px; left: calc(50% - 290px); color: #FFF; text-align: center; text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60); font-family: Rubik-Dirt; font-size: 96px; font-style: normal; font-weight: 400; line-height: 106%; text-transform: uppercase;">Question 7</h3>',
+          'q': '<img class="image-question"  src="img/question-seven.png"> <br> <p style="font-family: Proxima Nova; font-style: normal; font-weight: 900; font-size: 30px; max-width: 910px; line-height: 106%; text-align: center; text-transform: uppercase; color: #FFFFFF; margin: 130px auto 50px;">What did Harry Potter receive for his first Christmas?</p> <h2 class="up-header-text">Merry Christmas quiz</h2><h3 class="down-header-text">Question 7</h3>',
           'options': [
             '<p id="50" class="true-button">A) Warm sweater</p>',
             '<p id="51" class="false-button">B) Spellbook</p>',
@@ -446,7 +447,6 @@
     }
 
   </script>
-  <script src="dist/lifeLogick.js"></script>
-  <script src="dist/winter.js"></script>
+  <script src="dist/lifeLogick.js"></script>  
 </body>
 </html>

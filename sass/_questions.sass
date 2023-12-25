@@ -1,5 +1,7 @@
 @import "media"
 @import "fonts"
+@import "jquery-quiz"
+@import "win"
 
 
 #quiz-buttons a, .quiz-container .quiz-button
@@ -90,7 +92,7 @@
 
 .body-questions 
     background: url('../img/backgraund-quiz.png') 50% 10%/cover no-repeat
-    background-color: #171616
+    background-color: #002d46
 
 #quiz-response
     max-width: 910px
@@ -106,8 +108,6 @@
 
 
 #quesions__img
-    // .display-none
-    //     display: none
     .display-block
         display: block
         margin-top: 80px
@@ -117,10 +117,16 @@
         margin: 0 auto
         position: relative
         bottom: -5px
-
-#quiz-start-screen 
-    width: 1100px
+#quiz-header
+    +_1170
+        margin-top: 400px
+.content
+    max-width: 1100px
+    width: 100%
     margin: 0 auto
+    .image
+        width: 98%
+        
     
 .quiz-start-screen-text
     color: #FFF
@@ -140,6 +146,8 @@
     position: absolute
     left: calc( 50% - 350px )
     top: 130px
+    +_1170
+        top: 50px
     h2
         color: #FFF
         text-align: center
@@ -161,51 +169,92 @@
         line-height: 106%
         text-transform: uppercase
 
+.image-question
+    position: relative
+    left: calc(50% - 600px)
+    border-radius: 15px
+    +_1170
+        width: 98%
+        left: calc(50% - 485px)
+
+.up-header-text
+    position: absolute
+    top: -232px
+    left: calc(50% - 230px)
+    color: #FFF
+    text-align: center
+    text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60)
+    font-family: Rubik-Dirt
+    font-size: 36px
+    font-style: normal
+    font-weight: 400
+    line-height: 106%
+    text-transform: uppercase
+    +_1170
+        top: -170px
+
+.down-header-text
+    position: absolute
+    top: -192px
+    left: calc(50% - 290px) 
+    color: #FFF
+    text-align: center 
+    text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60)
+    font-family: Rubik-Dirt
+    font-size: 96px
+    font-style: normal
+    font-weight: 400
+    line-height: 106% 
+    text-transform: uppercase
+    +_1170
+        top: -134px
+
+
 .mobile-1
     position: absolute
     bottom: 513px
     left: calc(50% - 555px)
-    @media only screen and (max-width: 1000px)
-        display: none !important
+    +_1170
+        display: none
 
 .mobile-2
     position: absolute
     bottom: 429px
     left: calc(50% - 555px)
-    @media only screen and (max-width: 1000px)
-        display: none !important
+    +_1170
+        display: none
 
 .mobile-3
     position: absolute
     bottom: 429px
     left: calc(50% - 555px)
-    @media only screen and (max-width: 1000px)
-        display: none !important
+    +_1170
+        display: none
 
 .mobile-4
     position: absolute
     bottom: 429px
     left: calc(50% - 555px)
-    @media only screen and (max-width: 1000px)
-        display: none !important
+    +_1170
+        display: none
 
 .mobile-5
     position: absolute
     bottom: 396px
     left: calc(50% - 555px)
-    @media only screen and (max-width: 1000px)
-        display: none !important
+    +_1170
+        display: none
 
 .mobile-6
     position: absolute
     bottom: 396px
     left: calc(50% - 555px)
-    @media only screen and (max-width: 1000px)
-        display: none !important
+    +_1170
+        display: none
 
 .mobile-7
     position: absolute
     bottom: 454px
     left: calc(50% - 555px)
-    @media only screen and (max-width: 1000px)
-        display: none !important
+    +_1170
+        display: none
