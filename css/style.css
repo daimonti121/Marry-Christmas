@@ -523,6 +523,10 @@ h1 {
       .win-header-text h3 {
         font-size: 50px; } }
 
+@media (max-width: 768px) {
+  .win__img-footer {
+    width: 100%; } }
+
 #quiz-buttons a, .quiz-container .quiz-button {
   color: #FFF;
   text-align: center;
@@ -1125,6 +1129,10 @@ h1 {
     @media (max-width: 768px) {
       .win-header-text h3 {
         font-size: 50px; } }
+
+@media (max-width: 768px) {
+  .win__img-footer {
+    width: 100%; } }
 
 *, *::before, *::after {
   margin: 0;
