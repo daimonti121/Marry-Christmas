@@ -3,7 +3,7 @@
 
 .win
     background: url('../img/backgraund-quiz.png') 50% 10%/cover no-repeat
-    background-color: #171616
+    background-color: #002d46
     +_600
         margin-bottom: 50px
     .win__container
@@ -19,8 +19,11 @@
         +_1170
             max-width: 950px
             margin: 100px auto
-            +_979
-                width: 95%
+        +_979
+            width: 95%
+        +_768
+            margin: 30px auto
+            
 
     
     &__baner 
@@ -35,10 +38,13 @@
                 width: 100%
             +_600
                 margin: 0 auto
+                border-radius: 15px 15px 0px 0px
 
     &__image-item
         width: 286px
         height: auto
+        +_768
+            width: 200px
 
     &__text-end
         color: #FFF
@@ -49,6 +55,8 @@
         font-weight: 900
         line-height: 106%
         text-transform: uppercase
+        +_768
+            font-size: 30px
 
     &__text 
         color: #FFF
@@ -60,6 +68,8 @@
         line-height: 106%
         text-transform: uppercase
         margin-top: 50px
+        +_768
+            margin-top: 20px
 
     &__text-code 
         font-family: 'Calibri'
@@ -95,7 +105,7 @@
         margin-top: 35px
         padding: 20px 92px
         border: 7px double rgba(245, 144, 0, 0.77)
-        +_600
+        +_768
             padding: 15px 42px
 
     &__link 
@@ -135,6 +145,9 @@
         border: 2px solid #FFF
 
         background: rgba(255, 255, 255, 0.20)
+        +_768
+            padding: 20px
+            width: 95%
         h3
             color: #FFF
             text-align: center
@@ -145,6 +158,8 @@
             font-weight: 900
             line-height: 106%
             text-transform: uppercase
+            +_768
+                font-size: 30px
 
         h2
             color: #FFF
@@ -156,6 +171,8 @@
             font-weight: 400
             line-height: 106%
             text-transform: uppercase
+            +_768
+                font-size: 100px
 
         h4
             color: #FFF
@@ -167,6 +184,8 @@
             font-weight: 900
             line-height: 106%
             text-transform: uppercase
+            +_768
+                font-size: 30px
 
         .shadow
             margin-top: 25px
@@ -183,11 +202,16 @@
                 line-height: 106%
                 text-transform: uppercase
                 padding: 20px 35px
+                +_768
+                    font-size: 24px
         
     .finish-link
         margin-top: 50px
         display: flex
         justify-content: space-around
+        +_768
+            display: flex
+            flex-direction: column
         .restart
             padding: 20px 55px
             margin: 0 25px
@@ -223,10 +247,14 @@
             text-decoration: none
             transition: 0.4s all
             &:hover
-                box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 80.817px 0px rgba(81, 224, 255, 0.70), 0px 7.263px 0px 0px #002D46 
+                box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 80.817px 0px rgba(81, 224, 255, 0.70), 0px 7.263px 0px 0px #002D46
+            +_768
+                margin-top: 20px
 
 .win-header-text
     margin-top: 100px
+    +_768
+        margin-top: 35px
     h2
         color: #FFF
         text-align: center
@@ -238,6 +266,8 @@
         line-height: 106%
         text-transform: uppercase
         display: block
+        +_768
+            font-size: 30px
     h3
         color: #FFF
         text-align: center
@@ -250,3 +280,5 @@
         text-transform: uppercase
         display: block
         margin-top: 12px
+        +_768
+            font-size: 50px

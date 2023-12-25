@@ -211,7 +211,7 @@ h1 {
   font-weight: 400; }
 .win {
   background: url("../img/backgraund-quiz.png") 50% 10%/cover no-repeat;
-  background-color: #171616; }
+  background-color: #002d46; }
   @media (max-width: 600px) {
     .win {
       margin-bottom: 50px; } }
@@ -236,10 +236,12 @@ h1 {
       .win .win__container {
         max-width: 950px;
         margin: 100px auto; } }
-  @media (max-width: 1170px) and (max-width: 979px) {
-    .win .win__container {
-      width: 95%; } }
-
+    @media (max-width: 979px) {
+      .win .win__container {
+        width: 95%; } }
+    @media (max-width: 768px) {
+      .win .win__container {
+        margin: 30px auto; } }
   .win__baner {
     width: 100%; }
     .win__baner img {
@@ -253,10 +255,14 @@ h1 {
           width: 100%; } }
       @media (max-width: 600px) {
         .win__baner img {
-          margin: 0 auto; } }
+          margin: 0 auto;
+          border-radius: 15px 15px 0px 0px; } }
   .win__image-item {
     width: 286px;
     height: auto; }
+    @media (max-width: 768px) {
+      .win__image-item {
+        width: 200px; } }
   .win__text-end {
     color: #FFF;
     text-align: center;
@@ -266,6 +272,9 @@ h1 {
     font-weight: 900;
     line-height: 106%;
     text-transform: uppercase; }
+    @media (max-width: 768px) {
+      .win__text-end {
+        font-size: 30px; } }
   .win__text {
     color: #FFF;
     text-align: center;
@@ -276,6 +285,9 @@ h1 {
     line-height: 106%;
     text-transform: uppercase;
     margin-top: 50px; }
+    @media (max-width: 768px) {
+      .win__text {
+        margin-top: 20px; } }
   .win__text-code {
     font-family: "Calibri";
     font-style: normal;
@@ -308,7 +320,7 @@ h1 {
     margin-top: 35px;
     padding: 20px 92px;
     border: 7px double rgba(245, 144, 0, 0.77); }
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
       .win__bonus {
         padding: 15px 42px; } }
   .win__link {
@@ -356,6 +368,10 @@ h1 {
     border-radius: 15px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.2); }
+    @media (max-width: 768px) {
+      .win .bonus {
+        padding: 20px;
+        width: 95%; } }
     .win .bonus h3 {
       color: #FFF;
       text-align: center;
@@ -366,6 +382,9 @@ h1 {
       font-weight: 900;
       line-height: 106%;
       text-transform: uppercase; }
+      @media (max-width: 768px) {
+        .win .bonus h3 {
+          font-size: 30px; } }
     .win .bonus h2 {
       color: #FFF;
       text-align: center;
@@ -376,6 +395,9 @@ h1 {
       font-weight: 400;
       line-height: 106%;
       text-transform: uppercase; }
+      @media (max-width: 768px) {
+        .win .bonus h2 {
+          font-size: 100px; } }
     .win .bonus h4 {
       color: #FFF;
       text-align: center;
@@ -386,6 +408,9 @@ h1 {
       font-weight: 900;
       line-height: 106%;
       text-transform: uppercase; }
+      @media (max-width: 768px) {
+        .win .bonus h4 {
+          font-size: 30px; } }
     .win .bonus .shadow {
       margin-top: 25px;
       border-radius: 20px;
@@ -401,6 +426,9 @@ h1 {
         line-height: 106%;
         text-transform: uppercase;
         padding: 20px 35px; }
+        @media (max-width: 768px) {
+          .win .bonus .shadow p {
+            font-size: 24px; } }
   .win .finish-link {
     margin-top: 50px;
     display: -webkit-box;
@@ -408,6 +436,15 @@ h1 {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around; }
+    @media (max-width: 768px) {
+      .win .finish-link {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; } }
     .win .finish-link .restart {
       padding: 20px 55px;
       margin: 0 25px;
@@ -447,9 +484,15 @@ h1 {
       .win .finish-link .take-bonus:hover {
         -webkit-box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 80.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46;
                 box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 80.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46; }
+      @media (max-width: 768px) {
+        .win .finish-link .take-bonus {
+          margin-top: 20px; } }
 
 .win-header-text {
   margin-top: 100px; }
+  @media (max-width: 768px) {
+    .win-header-text {
+      margin-top: 35px; } }
   .win-header-text h2 {
     color: #FFF;
     text-align: center;
@@ -461,6 +504,9 @@ h1 {
     line-height: 106%;
     text-transform: uppercase;
     display: block; }
+    @media (max-width: 768px) {
+      .win-header-text h2 {
+        font-size: 30px; } }
   .win-header-text h3 {
     color: #FFF;
     text-align: center;
@@ -473,6 +519,9 @@ h1 {
     text-transform: uppercase;
     display: block;
     margin-top: 12px; }
+    @media (max-width: 768px) {
+      .win-header-text h3 {
+        font-size: 50px; } }
 
 #quiz-buttons a, .quiz-container .quiz-button {
   color: #FFF;
@@ -765,7 +814,7 @@ h1 {
   font-weight: 400; }
 .win {
   background: url("../img/backgraund-quiz.png") 50% 10%/cover no-repeat;
-  background-color: #171616; }
+  background-color: #002d46; }
   @media (max-width: 600px) {
     .win {
       margin-bottom: 50px; } }
@@ -790,10 +839,12 @@ h1 {
       .win .win__container {
         max-width: 950px;
         margin: 100px auto; } }
-  @media (max-width: 1170px) and (max-width: 979px) {
-    .win .win__container {
-      width: 95%; } }
-
+    @media (max-width: 979px) {
+      .win .win__container {
+        width: 95%; } }
+    @media (max-width: 768px) {
+      .win .win__container {
+        margin: 30px auto; } }
   .win__baner {
     width: 100%; }
     .win__baner img {
@@ -807,10 +858,14 @@ h1 {
           width: 100%; } }
       @media (max-width: 600px) {
         .win__baner img {
-          margin: 0 auto; } }
+          margin: 0 auto;
+          border-radius: 15px 15px 0px 0px; } }
   .win__image-item {
     width: 286px;
     height: auto; }
+    @media (max-width: 768px) {
+      .win__image-item {
+        width: 200px; } }
   .win__text-end {
     color: #FFF;
     text-align: center;
@@ -820,6 +875,9 @@ h1 {
     font-weight: 900;
     line-height: 106%;
     text-transform: uppercase; }
+    @media (max-width: 768px) {
+      .win__text-end {
+        font-size: 30px; } }
   .win__text {
     color: #FFF;
     text-align: center;
@@ -830,6 +888,9 @@ h1 {
     line-height: 106%;
     text-transform: uppercase;
     margin-top: 50px; }
+    @media (max-width: 768px) {
+      .win__text {
+        margin-top: 20px; } }
   .win__text-code {
     font-family: "Calibri";
     font-style: normal;
@@ -862,7 +923,7 @@ h1 {
     margin-top: 35px;
     padding: 20px 92px;
     border: 7px double rgba(245, 144, 0, 0.77); }
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
       .win__bonus {
         padding: 15px 42px; } }
   .win__link {
@@ -910,6 +971,10 @@ h1 {
     border-radius: 15px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.2); }
+    @media (max-width: 768px) {
+      .win .bonus {
+        padding: 20px;
+        width: 95%; } }
     .win .bonus h3 {
       color: #FFF;
       text-align: center;
@@ -920,6 +985,9 @@ h1 {
       font-weight: 900;
       line-height: 106%;
       text-transform: uppercase; }
+      @media (max-width: 768px) {
+        .win .bonus h3 {
+          font-size: 30px; } }
     .win .bonus h2 {
       color: #FFF;
       text-align: center;
@@ -930,6 +998,9 @@ h1 {
       font-weight: 400;
       line-height: 106%;
       text-transform: uppercase; }
+      @media (max-width: 768px) {
+        .win .bonus h2 {
+          font-size: 100px; } }
     .win .bonus h4 {
       color: #FFF;
       text-align: center;
@@ -940,6 +1011,9 @@ h1 {
       font-weight: 900;
       line-height: 106%;
       text-transform: uppercase; }
+      @media (max-width: 768px) {
+        .win .bonus h4 {
+          font-size: 30px; } }
     .win .bonus .shadow {
       margin-top: 25px;
       border-radius: 20px;
@@ -955,6 +1029,9 @@ h1 {
         line-height: 106%;
         text-transform: uppercase;
         padding: 20px 35px; }
+        @media (max-width: 768px) {
+          .win .bonus .shadow p {
+            font-size: 24px; } }
   .win .finish-link {
     margin-top: 50px;
     display: -webkit-box;
@@ -962,6 +1039,15 @@ h1 {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around; }
+    @media (max-width: 768px) {
+      .win .finish-link {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; } }
     .win .finish-link .restart {
       padding: 20px 55px;
       margin: 0 25px;
@@ -1001,9 +1087,15 @@ h1 {
       .win .finish-link .take-bonus:hover {
         -webkit-box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 80.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46;
                 box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 80.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46; }
+      @media (max-width: 768px) {
+        .win .finish-link .take-bonus {
+          margin-top: 20px; } }
 
 .win-header-text {
   margin-top: 100px; }
+  @media (max-width: 768px) {
+    .win-header-text {
+      margin-top: 35px; } }
   .win-header-text h2 {
     color: #FFF;
     text-align: center;
@@ -1015,6 +1107,9 @@ h1 {
     line-height: 106%;
     text-transform: uppercase;
     display: block; }
+    @media (max-width: 768px) {
+      .win-header-text h2 {
+        font-size: 30px; } }
   .win-header-text h3 {
     color: #FFF;
     text-align: center;
@@ -1027,6 +1122,9 @@ h1 {
     text-transform: uppercase;
     display: block;
     margin-top: 12px; }
+    @media (max-width: 768px) {
+      .win-header-text h3 {
+        font-size: 50px; } }
 
 *, *::before, *::after {
   margin: 0;
@@ -1040,7 +1138,7 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #000000;
+  background-color: #002d46;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1290,5 +1388,4 @@ h1 {
 
 ::-webkit-scrollbar-corner {
   background: #005483; }
-
 /*# sourceMappingURL=style.css.map */
