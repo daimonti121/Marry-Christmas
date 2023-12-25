@@ -209,6 +209,7 @@
         margin-top: 50px
         display: flex
         justify-content: space-around
+        flex-wrap: wrap
         +_768
             display: flex
             flex-direction: column
@@ -232,24 +233,46 @@
                 box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 80.817px 0px rgba(81, 224, 255, 0.70), 0px 7.263px 0px 0px #002D46 
         
         .take-bonus
-            padding: 20px 55px
-            margin: 0 25px
-            border-radius: 20px
-            background: linear-gradient(84deg, #F4361F 0%, #FF6653 100%)
+            padding: 20px 30px
+            margin: 20px
             color: #FFF
             text-align: center
             font-family: Proxima Nova
-            font-size: 36px
+            font-size: 28px
             font-style: normal
             font-weight: 900
             line-height: 106%
             text-transform: uppercase
             text-decoration: none
             transition: 0.4s all
+            min-width: 310px
             &:hover
                 box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 80.817px 0px rgba(81, 224, 255, 0.70), 0px 7.263px 0px 0px #002D46
             +_768
                 margin-top: 20px
+
+        .botton-kakadu
+            border-radius: 50px
+            background: linear-gradient(84deg, #00AD3B 0%, #09DD52 100%)
+            &:hover
+                box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 60.817px 0px rgba(81, 224, 255, 0.70), 0px 7.263px 0px 0px #002D46
+        .botton-abo
+            border-radius: 50px
+            background: linear-gradient(84deg, #F4361F 0%, #FF6653 100%)
+            &:hover
+                box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 60.817px 0px rgba(81, 224, 255, 0.70), 0px 7.263px 0px 0px #002D46
+        .botton-arlekin
+            border-radius: 50px
+            background: linear-gradient(84deg, #185ADE 0%, #3295F9 100%)
+            &:hover
+                box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 60.817px 0px rgba(81, 224, 255, 0.70), 0px 7.263px 0px 0px #002D46
+
+        .botton-restart
+            border-radius: 50px
+            border: 2px solid #FFF
+            background: rgba(255, 255, 255, 0.20)
+            &:hover
+                box-shadow: 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 7.263px 0px 0px #002D46, 0px 0px 80.817px 0px rgba(81, 224, 255, 0.70), 0px 7.263px 0px 0px #002D46
 
 .win-header-text
     margin-top: 100px
