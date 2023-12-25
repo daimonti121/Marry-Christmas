@@ -1,0 +1,227 @@
+@import "media"
+@import "fonts"
+
+.win
+    background: url('../img/backgraund-quiz.png') 50% 10%/cover no-repeat
+    background-color: #171616
+    +_600
+        margin-bottom: 50px
+    .win__container
+        max-width: 1100px
+        width: 100%
+        height: auto
+        display: flex
+        flex-direction: column
+        align-items: center
+        background: #005483
+        border-radius: 15px
+        margin: 100px auto
+        +_1170
+            max-width: 950px
+            margin: 100px auto
+            +_979
+                width: 95%
+
+    
+    &__baner 
+        width: 100%
+        img
+            display: block
+            width: 95%
+            height: auto
+            margin: 35px auto 0px
+            border-radius: 6px
+            +_979
+                width: 100%
+            +_600
+                margin: 0 auto
+
+    &__image-item
+        width: 286px
+        height: auto
+
+    &__text-end
+        color: #FFF
+        text-align: center
+        font-family: Proxima Nova
+        font-size: 40px
+        font-style: normal
+        font-weight: 900
+        line-height: 106%
+        text-transform: uppercase
+
+    &__text 
+        color: #FFF
+        text-align: center
+        font-family: Proxima Nova
+        font-size: 25px
+        font-style: normal
+        font-weight: 400
+        line-height: 106%
+        text-transform: uppercase
+        margin-top: 50px
+
+    &__text-code 
+        font-family: 'Calibri'
+        font-style: normal
+        font-weight: 400
+        font-size: 45px
+        line-height: 106%
+        text-align: center
+        text-transform: uppercase
+        color: #F59000
+        text-shadow: 0px 0px 18px rgba(245, 144, 0, 0.77)
+        margin-top: 35px
+        
+    &__text-two 
+        font-family: 'Calibri'
+        font-style: normal
+        font-weight: 400
+        font-size: 28px
+        line-height: 106%
+        color: #FFFFFF
+        margin-top: 35px
+
+    &__bonus 
+        font-family: 'Calibri'
+        font-style: normal
+        font-weight: 400
+        font-size: 35px
+        line-height: 106%
+        text-align: center
+        text-transform: uppercase
+        color: #F59000
+        text-shadow: 0px 0px 18px rgba(245, 144, 0, 0.77)
+        margin-top: 35px
+        padding: 20px 92px
+        border: 7px double rgba(245, 144, 0, 0.77)
+        +_600
+            padding: 15px 42px
+
+    &__link 
+        font-family: 'Ghoulish Fright AOE'
+        font-style: normal
+        font-weight: 400
+        font-size: 35px
+        line-height: 106%
+        text-align: center
+        text-transform: uppercase
+        color: #FFFFFF
+        text-decoration: none
+        margin-top: 50px
+        display: block
+        padding: 16px 0px        
+        border-radius: 30px    
+        max-width: 264px
+        width: 100%
+        background-color: #F85032
+        transition: background-color .5s
+    &__link:hover         
+        background-color: #0B650B
+
+    &__img-footer 
+        margin-top: 75px
+        +_600
+            margin-top: 50px
+    
+    .bonus 
+        margin-top: 30px
+        display: flex
+        padding: 40px 90px
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        border-radius: 15px
+        border: 2px solid #FFF
+
+        background: rgba(255, 255, 255, 0.20)
+        h3
+            color: #FFF
+            text-align: center
+            text-shadow: 0px 5px 0px rgba(0, 45, 70, 0.60)
+            font-family: Proxima Nova
+            font-size: 40px
+            font-style: normal
+            font-weight: 900
+            line-height: 106%
+            text-transform: uppercase
+
+        h2
+            color: #FFF
+            text-align: center
+            text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60)
+            font-family: Rubik-Dirt
+            font-size: 140px
+            font-style: normal
+            font-weight: 400
+            line-height: 106%
+            text-transform: uppercase
+
+        h4
+            color: #FFF
+            text-align: center
+            text-shadow: 0px 5px 0px rgba(0, 45, 70, 0.60)
+            font-family: Proxima Nova
+            font-size: 40px
+            font-style: normal
+            font-weight: 900
+            line-height: 106%
+            text-transform: uppercase
+
+        .shadow
+            margin-top: 25px
+            border-radius: 20px
+            background: #154B69
+            p
+                color: #FFF
+                text-align: center
+                text-shadow: 0px 5px 0px rgba(0, 45, 70, 0.60)
+                font-family: Proxima Nova
+                font-size: 40px
+                font-style: normal
+                font-weight: 900
+                line-height: 106%
+                text-transform: uppercase
+                padding: 20px 35px
+        
+    .finish-link
+        margin-top: 50px
+        display: flex
+        justify-content: space-around
+        .restart
+            padding: 20px 55px
+            margin: 0 25px
+            border-radius: 20px
+            border: 2px solid #FFF
+            background: rgba(255, 255, 255, 0.20)
+            color: #FFF
+            text-align: center
+            font-family: Proxima Nova
+            font-size: 36px
+            font-style: normal
+            font-weight: 900
+            line-height: 106%
+            text-transform: uppercase
+            text-decoration: none
+            transition: 0.4s all
+            &:hover
+                box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 80.817px 0px rgba(81, 224, 255, 0.70), 0px 7.263px 0px 0px #002D46 
+        
+        .take-bonus
+            padding: 20px 55px
+            margin: 0 25px
+            border-radius: 20px
+            background: linear-gradient(84deg, #F4361F 0%, #FF6653 100%)
+            color: #FFF
+            text-align: center
+            font-family: Proxima Nova
+            font-size: 36px
+            font-style: normal
+            font-weight: 900
+            line-height: 106%
+            text-transform: uppercase
+            text-decoration: none
+            transition: 0.4s all
+            &:hover
+                box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 80.817px 0px rgba(81, 224, 255, 0.70), 0px 7.263px 0px 0px #002D46 
+

@@ -1,0 +1,219 @@
+@import "media"
+@import "fonts"
+@import "jquery-quiz"
+@import "questions"
+@import "win"
+
+    
+*, *::before, *::after
+    margin: 0
+    padding: 0
+    border: none
+    box-sizing: border-box 
+
+.body 
+    background: url("../img/backgraund-main.png") 50% 0/cover no-repeat
+    display: flex
+    background-color: #000000
+    justify-content: center
+    align-items: center
+
+.wrapper 
+    min-height: 0%
+    display: flex
+    flex-direction: column
+    overflow: hidden
+
+.main 
+    flex: 1 1 auto
+    overflow: hidden
+
+.box__container
+    max-width: 1280px 
+    margin: 0 auto
+    +_1170
+        margin: 0 20px
+
+
+
+.quesions__container
+    max-width: 1200px 
+    margin: 340px auto 100px
+    background: #005483
+    border: 1px solid #005483
+    
+    border-radius: 15px
+    +_1170
+        margin: 200px auto
+
+
+h1 
+    margin-top: 147px
+    color: green
+    font-family: "Ghoulish Fright AOE"
+
+.box 
+    max-width: 1200px
+    width: 100%
+    .backcolor
+        background: #000000
+        border: 1px solid #000000
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 6px
+    h1   
+        color: #FFF
+        text-align: center
+        text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60)
+        font-family: Rubik-Dirt
+        font-size: 96px
+        font-style: normal
+        font-weight: 400
+        line-height: 106%
+        text-transform: uppercase
+        +_768
+            font-size: 60px
+            margin-top: 50px
+    h2
+        color: #FFF
+        text-align: center
+        text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60)
+        font-family: Rubik-Dirt
+        font-size: 48px
+        font-style: normal
+        font-weight: 400
+        line-height: 106% 
+        text-transform: uppercase
+        margin-top: 30px
+        +_768
+            margin-top: 40px
+            font-size: 40px
+
+    .info-block-one
+        max-width: 1200px
+        width: 100%
+        height: 350px
+        margin-top: 300px
+        padding-left: 80px
+        padding-right: 80px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        background-color: rgba(0, 84, 131, 1)
+        border-radius: 15px
+        position: relative
+        +_768
+            flex-direction: column-reverse
+            margin-top: 40px
+            text-align: center
+        .text
+            max-width: 480px
+            width: 100%
+            h3
+                color: #FFF
+                text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60)
+                font-family: Rubik-Dirt
+                font-size: 48px
+                font-style: normal
+                font-weight: 400
+                line-height: 106%
+                text-transform: uppercase
+            p
+                color: #FFF
+                font-family: Proxima Nova
+                font-size: 25px
+                font-style: normal
+                font-weight: 400
+                line-height: 106%
+                margin-top: 25px
+
+        .image 
+            display: block
+            width: 600px
+            position: absolute
+            right: 0px
+            bottom: 0px
+
+    .info-block-two
+        margin-top: 90px
+        max-width: 1200px
+        width: 100%
+        height: 350px
+        padding-left: 80px
+        padding-right: 80px
+        display: flex
+        justify-content: flex-end
+        align-items: center
+        background-color: rgba(0, 84, 131, 1)
+        border-radius: 15px
+        position: relative
+        +_768
+            flex-direction: column
+            margin-top: 0px
+            text-align: center
+        .text
+            max-width: 480px
+            width: 100%
+            h3
+                color: #FFF
+                text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60)
+                font-family: Rubik-Dirt
+                font-size: 48px
+                font-style: normal
+                font-weight: 400
+                line-height: 106%
+                text-transform: uppercase
+            p
+                color: #FFF
+                font-family: Proxima Nova
+                font-size: 25px
+                font-style: normal
+                font-weight: 400
+                line-height: 106%
+                margin-top: 25px
+        .image 
+            display: block
+            width: 580px
+            height: auto
+            position: absolute
+            left: 0px
+            bottom: 0px
+    
+    .button 
+        color: #FFF
+        text-align: center
+        font-family: 'Proxima Nova'
+        font-size: 36px
+        font-style: normal
+        font-weight: 900
+        line-height: 106%
+        text-decoration: none
+        padding: 20px 55px
+        background: linear-gradient(84deg, #F4361F 0%, #FF6653 100%)
+        border-radius: 30px
+        display: block
+        max-width: 320px
+        width: 100%
+        margin: 120px auto
+        transition: 0.5s
+        &:hover
+            box-shadow: 0px 3.263px 0px 0px #002D46, 0px 2.15px 2.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 50.817px 0px rgba(81, 224, 255, 0.70), 0px 5px 0px 0px #002D46
+        +_768
+            margin: 100px auto
+
+
+::-webkit-scrollbar 
+    height: 1px
+    width: 8px
+    background: #005483
+
+
+::-webkit-scrollbar-thumb 
+    background: #fff
+    -webkit-border-radius: 1ex
+    -webkit-box-shadow: 0px 0px 10px #fff
+
+
+::-webkit-scrollbar-corner 
+    background: #005483
+
+
