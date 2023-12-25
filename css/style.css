@@ -490,19 +490,19 @@ h1 {
           margin-top: 20px; } }
     .win .finish-link .botton-kakadu {
       border-radius: 50px;
-      background: linear-gradient(84deg, #00AD3B 0%, #09DD52 100%); }
+      background: linear-gradient(84deg, #185ADE 0%, #3295F9 100%); }
       .win .finish-link .botton-kakadu:hover {
         -webkit-box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 60.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46;
                 box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 60.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46; }
     .win .finish-link .botton-abo {
       border-radius: 50px;
-      background: linear-gradient(84deg, #F4361F 0%, #FF6653 100%); }
+      background: linear-gradient(84deg, #00AD3B 0%, #09DD52 100%); }
       .win .finish-link .botton-abo:hover {
         -webkit-box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 60.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46;
                 box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 60.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46; }
     .win .finish-link .botton-arlekin {
       border-radius: 50px;
-      background: linear-gradient(84deg, #185ADE 0%, #3295F9 100%); }
+      background: linear-gradient(84deg, #F4361F 0%, #FF6653 100%); }
       .win .finish-link .botton-arlekin:hover {
         -webkit-box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 60.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46;
                 box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 60.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46; }
@@ -1124,19 +1124,19 @@ h1 {
           margin-top: 20px; } }
     .win .finish-link .botton-kakadu {
       border-radius: 50px;
-      background: linear-gradient(84deg, #00AD3B 0%, #09DD52 100%); }
+      background: linear-gradient(84deg, #185ADE 0%, #3295F9 100%); }
       .win .finish-link .botton-kakadu:hover {
         -webkit-box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 60.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46;
                 box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 60.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46; }
     .win .finish-link .botton-abo {
       border-radius: 50px;
-      background: linear-gradient(84deg, #F4361F 0%, #FF6653 100%); }
+      background: linear-gradient(84deg, #00AD3B 0%, #09DD52 100%); }
       .win .finish-link .botton-abo:hover {
         -webkit-box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 60.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46;
                 box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 60.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46; }
     .win .finish-link .botton-arlekin {
       border-radius: 50px;
-      background: linear-gradient(84deg, #185ADE 0%, #3295F9 100%); }
+      background: linear-gradient(84deg, #F4361F 0%, #FF6653 100%); }
       .win .finish-link .botton-arlekin:hover {
         -webkit-box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 60.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46;
                 box-shadow: 0px 7.263px 0px 0px #002D46, 0px 4.15px 4.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 60.817px 0px rgba(81, 224, 255, 0.7), 0px 7.263px 0px 0px #002D46; }
@@ -1449,5 +1449,4 @@ h1 {
 
 ::-webkit-scrollbar-corner {
   background: #005483; }
-
 /*# sourceMappingURL=style.css.map */
