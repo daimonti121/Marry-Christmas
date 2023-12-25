@@ -593,6 +593,9 @@ h1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+body {
+  overflow: auto; }
+
 .body {
   background: url("../img/backgraund-main.png") 50% 0/cover no-repeat;
   display: -webkit-box;
