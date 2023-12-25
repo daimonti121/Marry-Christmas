@@ -684,7 +684,8 @@ h1 {
   width: 100%;
   margin: 0 auto; }
   .content .image {
-    width: 98%; }
+    width: 98%;
+    border-radius: 15px; }
 
 .quiz-start-screen-text {
   color: #FFF;
@@ -1194,7 +1195,7 @@ h1 {
           box-sizing: border-box; }
 
 .body {
-  background: url("../img/backgraund-main.png") 50% 0/cover no-repeat;
+  background: url("../img/backgraund-main.jpg") 50% 0/cover no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1448,4 +1449,5 @@ h1 {
 
 ::-webkit-scrollbar-corner {
   background: #005483; }
+
 /*# sourceMappingURL=style.css.map */
