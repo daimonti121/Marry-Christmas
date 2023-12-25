@@ -74,7 +74,7 @@ h1
         line-height: 106%
         text-transform: uppercase
         +_768
-            font-size: 60px
+            font-size: 50px
             margin-top: 50px
     h2
         color: #FFF
@@ -89,7 +89,7 @@ h1
         margin-top: 30px
         +_768
             margin-top: 40px
-            font-size: 40px
+            font-size: 35px
 
     .info-block-one
         max-width: 1200px
@@ -105,9 +105,10 @@ h1
         border-radius: 15px
         position: relative
         +_768
-            flex-direction: column-reverse
-            margin-top: 40px
+            margin-top: 120px
             text-align: center
+            padding: 40px 10px
+            height: auto
         .text
             max-width: 480px
             width: 100%
@@ -120,6 +121,8 @@ h1
                 font-weight: 400
                 line-height: 106%
                 text-transform: uppercase
+                +_768
+                    font-size: 30px
             p
                 color: #FFF
                 font-family: Proxima Nova
@@ -128,13 +131,16 @@ h1
                 font-weight: 400
                 line-height: 106%
                 margin-top: 25px
-
+                +_768
+                    font-size: 22px
         .image 
             display: block
             width: 600px
             position: absolute
             right: 0px
             bottom: 0px
+            +_768
+                display: none
 
     .info-block-two
         margin-top: 90px
@@ -151,8 +157,11 @@ h1
         position: relative
         +_768
             flex-direction: column
-            margin-top: 0px
+            justify-content: center
+            margin-top: 60px
             text-align: center
+            padding: 40px 10px
+            height: auto
         .text
             max-width: 480px
             width: 100%
@@ -165,6 +174,8 @@ h1
                 font-weight: 400
                 line-height: 106%
                 text-transform: uppercase
+                +_768
+                    font-size: 30px
             p
                 color: #FFF
                 font-family: Proxima Nova
@@ -173,6 +184,8 @@ h1
                 font-weight: 400
                 line-height: 106%
                 margin-top: 25px
+                +_768
+                    font-size: 22px
         .image 
             display: block
             width: 580px
@@ -180,6 +193,8 @@ h1
             position: absolute
             left: 0px
             bottom: 0px
+            +_768
+                display: none
     
     .button 
         color: #FFF
@@ -201,7 +216,7 @@ h1
         &:hover
             box-shadow: 0px 3.263px 0px 0px #002D46, 0px 2.15px 2.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 50.817px 0px rgba(81, 224, 255, 0.70), 0px 5px 0px 0px #002D46
         +_768
-            margin: 100px auto
+            margin: 50px auto
 
 
 ::-webkit-scrollbar 
