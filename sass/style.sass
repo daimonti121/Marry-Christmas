@@ -4,62 +4,57 @@
 @import "questions"
 @import "win"
 
-    
 *, *::before, *::after
     margin: 0
     padding: 0
     border: none
-    box-sizing: border-box 
+    box-sizing: border-box
 
 // body 
 //     // overflow: auto
-.body 
+.body
     background: url("../img/backgraund-main.jpg") 50% 0/cover no-repeat
     display: flex
     background-color: #002d46
     justify-content: center
     align-items: center
 
-
-.wrapper 
+.wrapper
     min-height: 0%
     display: flex
     flex-direction: column
     overflow: hidden
 
-.main 
+.main
     flex: 1 1 auto
     overflow: hidden
 
 .box__container
-    max-width: 1280px 
+    max-width: 1280px
     margin: 0 auto
     +_1170
         margin: 0 20px
 
-
-
 .quesions__container
-    max-width: 1200px 
+    max-width: 1200px
     margin: 340px auto 100px
     background: #005483
     border: 1px solid #005483
-    
+
     border-radius: 15px
     +_1170
         margin: 200px auto
-
 
 // .header-text
 //     +_1170
 //         top: 50px
 
-h1 
+h1
     margin-top: 147px
     color: green
     font-family: "Ghoulish Fright AOE"
 
-.box 
+.box
     max-width: 1200px
     width: 100%
     .backcolor
@@ -67,7 +62,7 @@ h1
         border: 1px solid #000000
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
         border-radius: 6px
-    h1   
+    h1
         color: #FFF
         text-align: center
         text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60)
@@ -88,7 +83,7 @@ h1
         font-size: 48px
         font-style: normal
         font-weight: 400
-        line-height: 106% 
+        line-height: 106%
         text-transform: uppercase
         margin-top: 30px
         +_768
@@ -137,12 +132,12 @@ h1
                 margin-top: 25px
                 +_768
                     font-size: 22px
-        .image 
+        .image
             display: block
-            width: 600px
+            width: 320px
             position: absolute
-            right: 0px
-            bottom: 0px
+            right: 130px
+            bottom: 10px
             +_768
                 display: none
 
@@ -190,17 +185,17 @@ h1
                 margin-top: 25px
                 +_768
                     font-size: 22px
-        .image 
+        .image
             display: block
-            width: 580px
+            width: 420px
             height: auto
             position: absolute
-            left: 0px
+            left: 60px
             bottom: 0px
             +_768
                 display: none
-    
-    .button 
+
+    .button
         color: #FFF
         text-align: center
         font-family: 'Proxima Nova'
@@ -222,19 +217,15 @@ h1
         +_768
             margin: 50px auto
 
-::-webkit-scrollbar 
+::-webkit-scrollbar
     height: 1px
     width: 8px
     background: #005483
 
-
-::-webkit-scrollbar-thumb 
+::-webkit-scrollbar-thumb
     background: #fff
     -webkit-border-radius: 1ex
     -webkit-box-shadow: 0px 0px 10px #fff
 
-
-::-webkit-scrollbar-corner 
+::-webkit-scrollbar-corner
     background: #005483
-
-
