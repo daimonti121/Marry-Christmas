@@ -74,9 +74,15 @@
       <img src="img/question-back-two.png" id="img" alt="item">
     </div>
   </div>
+  <audio id="myAudio" autoplay loop>
+    <source src="MariahCarey.mp3" type="audio/mp3">    
+  </audio>
   <script src="dist/winter.js"></script>  
 </div>
-
+<script>
+  const audio = document.getElementById('myAudio');
+  audio.volume = 0.1; 
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script src="dist/jquery.quiz-min.js"></script>
 <script>
