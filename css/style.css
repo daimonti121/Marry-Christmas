@@ -32,67 +32,66 @@ h1 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000314}}
 .quiz-container {
-  padding: 0.25em;
   margin: 1em auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000318}}
 .quiz-container a {
   text-decoration: none;
   color: #333; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000322}}
 #quiz-header {
   position: absolute;
   left: calc( 50% - 157px );
   margin-top: 460px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000328}}
 #quiz-header,
 #quiz-start-screen,
 #quiz-results-screen,
 #quiz-counter {
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000335}}
 .question {
   font-size: 1.25em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000339}}
 .answers {
   list-style: none;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000344}}
 .answers a {
   display: block;
   margin-bottom: 0.5em;
   background: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000350}}
 .answers a.correct {
   background: #090; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000353}}
 .answers a.incorrect {
   background: #c00; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000357}}
 .answers a.correct,
 .answers a.incorrect {
   color: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000361}}
 #quiz-controls {
   background: #63c5bc;
   color: #111;
   padding: 0.25em 0.5em 0.5em;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000367}}
 #quiz-results {
   font-size: 1.25em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000371}}
 #quiz-buttons a,
 .quiz-container .quiz-button {
   display: inline-block;
@@ -100,18 +99,18 @@ h1 {
   background: #88449a;
   color: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000378}}
 #quiz-buttons a {
   background: #fff;
   color: #333; }
 
 /* Quiz State Overrides */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000385}}
 .quiz-results-state #quiz-controls {
   background: none;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000389}}
 .quiz-results-state #quiz-buttons a {
   background: #88449a;
   color: #fff; }
@@ -150,67 +149,66 @@ h1 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000314}}
 .quiz-container {
-  padding: 0.25em;
   margin: 1em auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000318}}
 .quiz-container a {
   text-decoration: none;
   color: #333; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000322}}
 #quiz-header {
   position: absolute;
   left: calc( 50% - 157px );
   margin-top: 460px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000328}}
 #quiz-header,
 #quiz-start-screen,
 #quiz-results-screen,
 #quiz-counter {
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000335}}
 .question {
   font-size: 1.25em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000339}}
 .answers {
   list-style: none;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000344}}
 .answers a {
   display: block;
   margin-bottom: 0.5em;
   background: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000350}}
 .answers a.correct {
   background: #090; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000353}}
 .answers a.incorrect {
   background: #c00; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000357}}
 .answers a.correct,
 .answers a.incorrect {
   color: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000361}}
 #quiz-controls {
   background: #63c5bc;
   color: #111;
   padding: 0.25em 0.5em 0.5em;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000367}}
 #quiz-results {
   font-size: 1.25em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000371}}
 #quiz-buttons a,
 .quiz-container .quiz-button {
   display: inline-block;
@@ -218,18 +216,18 @@ h1 {
   background: #88449a;
   color: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000378}}
 #quiz-buttons a {
   background: #fff;
   color: #333; }
 
 /* Quiz State Overrides */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000385}}
 .quiz-results-state #quiz-controls {
   background: none;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_jquery-quiz\.sass}line{font-family:\0000389}}
 .quiz-results-state #quiz-buttons a {
   background: #88449a;
   color: #fff; }
@@ -650,7 +648,7 @@ h1 {
   .win__img-footer {
     width: 100%; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\000036}}
 #quiz-buttons a, .quiz-container .quiz-button {
   color: #FFF;
   text-align: center;
@@ -669,17 +667,17 @@ h1 {
   margin: 0 auto;
   -webkit-transition: 0.5s;
   transition: 0.5s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000323}}
   #quiz-buttons a:hover, .quiz-container .quiz-button:hover {
     -webkit-box-shadow: 0px 3.263px 0px 0px #002D46, 0px 2.15px 2.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 50.817px 0px rgba(81, 224, 255, 0.7), 0px 5px 0px 0px #002D46;
             box-shadow: 0px 3.263px 0px 0px #002D46, 0px 2.15px 2.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 50.817px 0px rgba(81, 224, 255, 0.7), 0px 5px 0px 0px #002D46; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000326}}
 .quesions__container {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
           animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000329}}
 .answers {
   list-style: none;
   padding: 0;
@@ -691,11 +689,11 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000335}}
   .answers li {
     margin: 10px 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000338}}
 .answers a p {
   color: #FFF;
   font-family: "Proxima Nova";
@@ -712,15 +710,15 @@ h1 {
   height: 70px !important;
   text-align: center;
   border-radius: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000353}}
   .answers a p:hover {
     background: rgba(255, 255, 255, 0.2); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000355}}
 .answers a {
   background-color: transparent; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000358}}
 .question {
   font-family: "Ghoulish Fright AOE";
   font-style: normal;
@@ -732,41 +730,40 @@ h1 {
   color: #FFFFFF;
   margin-bottom: 70px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000370}}
 #quiz-header img {
   width: 286px;
   height: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000374}}
 .answers a.correct {
   background: transparent; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000377}}
 .answers a.incorrect {
   background: transparent; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000380}}
 .answers a.correct p {
   border: 1px solid #00FF85;
   background: #00FF85;
   -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 133, 0.7);
           box-shadow: 0px 0px 30px 0px rgba(0, 255, 133, 0.7); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000385}}
 .answers a.incorrect p {
   border: 1px solid #FF6653;
   background: #FF6653; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000389}}
 #quiz-controls {
   background: transparent; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000392}}
 .body-questions {
-  background: url("../img/backgraund-quiz.png") 50% 10%/cover no-repeat;
-  background-color: #002d46; }
+  display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\0000395}}
 #quiz-response {
   max-width: 910px;
   color: #FFF;
@@ -779,11 +776,11 @@ h1 {
   margin: 50px auto;
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003108}}
 #quesions__img .display-block {
   display: block;
   margin-top: 80px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003111}}
 #quesions__img img {
   width: 100%;
   height: auto;
@@ -792,34 +789,34 @@ h1 {
   bottom: -5px; }
 
 @media (max-width: 1170px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003117}}
   #quiz-header {
     margin-top: 400px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003120}}
 .content {
   max-width: 1100px;
   width: 100%;
   margin: 0 auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003124}}
   .content .image {
     width: 98%;
     border-radius: 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003128}}
 .quiz-start-screen-text {
   color: #FFF;
   text-align: center;
   font-family: Proxima Nova;
-  font-size: 40px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 900;
   line-height: 106%;
   text-transform: uppercase;
-  margin: 130px auto 55px;
-  max-width: 910px; }
+  margin: 150px auto 55px;
+  max-width: 800px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003140}}
 .header-text {
   width: 700px;
   text-align: center;
@@ -827,10 +824,10 @@ h1 {
   left: calc( 50% - 350px );
   top: 130px; }
   @media (max-width: 1170px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003140}}
     .header-text {
       top: 50px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003148}}
   .header-text h2 {
     color: #FFF;
     text-align: center;
@@ -841,7 +838,7 @@ h1 {
     font-weight: 400;
     line-height: 106%;
     text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003158}}
   .header-text h3 {
     color: #FFF;
     text-align: center;
@@ -853,18 +850,18 @@ h1 {
     line-height: 106%;
     text-transform: uppercase; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003169}}
 .image-question {
   position: relative;
   left: calc(50% - 600px);
   border-radius: 15px; }
   @media (max-width: 1170px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003169}}
     .image-question {
       width: 98%;
       left: calc(50% - 485px); } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003177}}
 .up-header-text {
   position: absolute;
   top: -232px;
@@ -879,11 +876,11 @@ h1 {
   line-height: 106%;
   text-transform: uppercase; }
   @media (max-width: 1170px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003177}}
     .up-header-text {
       top: -170px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003193}}
 .down-header-text {
   position: absolute;
   top: -192px;
@@ -898,77 +895,77 @@ h1 {
   line-height: 106%;
   text-transform: uppercase; }
   @media (max-width: 1170px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003193}}
     .down-header-text {
       top: -134px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003209}}
 .mobile-1 {
   position: absolute;
   bottom: 513px;
   left: calc(50% - 555px); }
   @media (max-width: 1170px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003209}}
     .mobile-1 {
       display: none; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003216}}
 .mobile-2 {
   position: absolute;
   bottom: 429px;
   left: calc(50% - 555px); }
   @media (max-width: 1170px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003216}}
     .mobile-2 {
       display: none; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003223}}
 .mobile-3 {
   position: absolute;
   bottom: 429px;
   left: calc(50% - 555px); }
   @media (max-width: 1170px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003223}}
     .mobile-3 {
       display: none; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003235}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003230}}
 .mobile-4 {
   position: absolute;
   bottom: 429px;
   left: calc(50% - 555px); }
   @media (max-width: 1170px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003235}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003230}}
     .mobile-4 {
       display: none; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003242}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003237}}
 .mobile-5 {
   position: absolute;
   bottom: 396px;
   left: calc(50% - 555px); }
   @media (max-width: 1170px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003242}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003237}}
     .mobile-5 {
       display: none; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003244}}
 .mobile-6 {
   position: absolute;
   bottom: 396px;
   left: calc(50% - 555px); }
   @media (max-width: 1170px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003244}}
     .mobile-6 {
       display: none; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003251}}
 .mobile-7 {
   position: absolute;
   bottom: 454px;
   left: calc(50% - 555px); }
   @media (max-width: 1170px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/_questions\.sass}line{font-family:\00003251}}
     .mobile-7 {
       display: none; } }
 
@@ -1408,9 +1405,10 @@ h1 {
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  padding: 100px 0 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000323}}
 .wrapper {
   min-height: 0%;
   display: -webkit-box;
@@ -1422,52 +1420,52 @@ h1 {
           flex-direction: column;
   overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000329}}
 .main {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000333}}
 .box__container {
   max-width: 1280px;
   margin: 0 auto; }
   @media (max-width: 1170px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000333}}
     .box__container {
       margin: 0 20px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000339}}
 .quesions__container {
   max-width: 1200px;
-  margin: 340px auto 100px;
+  margin: 0px auto 40px;
   background: #005483;
   border: 1px solid #005483;
   border-radius: 15px; }
   @media (max-width: 1170px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000339}}
     .quesions__container {
       margin: 200px auto; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000353}}
 h1 {
   margin-top: 147px;
   color: green;
   font-family: "Ghoulish Fright AOE"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000358}}
 .box {
   max-width: 1200px;
   width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000361}}
   .box .backcolor {
     background: #000000;
     border: 1px solid #000000;
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 6px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000366}}
   .box h1 {
     color: #FFF;
     text-align: center;
@@ -1479,11 +1477,11 @@ h1 {
     line-height: 106%;
     text-transform: uppercase; }
     @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000366}}
       .box h1 {
         font-size: 50px;
         margin-top: 50px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000379}}
   .box h2 {
     color: #FFF;
     text-align: center;
@@ -1496,11 +1494,11 @@ h1 {
     text-transform: uppercase;
     margin-top: 30px; }
     @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000379}}
       .box h2 {
         margin-top: 40px;
         font-size: 35px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000394}}
   .box .info-block-one {
     max-width: 1200px;
     width: 100%;
@@ -1521,17 +1519,17 @@ h1 {
     border-radius: 15px;
     position: relative; }
     @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\0000394}}
       .box .info-block-one {
         margin-top: 120px;
         text-align: center;
         padding: 40px 10px;
         height: auto; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003112}}
     .box .info-block-one .text {
       max-width: 480px;
       width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003115}}
       .box .info-block-one .text h3 {
         color: #FFF;
         text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.6);
@@ -1542,10 +1540,10 @@ h1 {
         line-height: 106%;
         text-transform: uppercase; }
         @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003115}}
           .box .info-block-one .text h3 {
             font-size: 30px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003126}}
       .box .info-block-one .text p {
         color: #FFF;
         font-family: Proxima Nova;
@@ -1555,10 +1553,10 @@ h1 {
         line-height: 106%;
         margin-top: 25px; }
         @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003126}}
           .box .info-block-one .text p {
             font-size: 22px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003136}}
     .box .info-block-one .image {
       display: block;
       width: 320px;
@@ -1566,10 +1564,10 @@ h1 {
       right: 130px;
       bottom: 10px; }
       @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003136}}
         .box .info-block-one .image {
           display: none; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003145}}
   .box .info-block-two {
     margin-top: 90px;
     max-width: 1200px;
@@ -1590,7 +1588,7 @@ h1 {
     border-radius: 15px;
     position: relative; }
     @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003145}}
       .box .info-block-two {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -1603,11 +1601,11 @@ h1 {
         text-align: center;
         padding: 40px 10px;
         height: auto; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003165}}
     .box .info-block-two .text {
       max-width: 480px;
       width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003168}}
       .box .info-block-two .text h3 {
         color: #FFF;
         text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.6);
@@ -1618,10 +1616,10 @@ h1 {
         line-height: 106%;
         text-transform: uppercase; }
         @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003168}}
           .box .info-block-two .text h3 {
             font-size: 30px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003179}}
       .box .info-block-two .text p {
         color: #FFF;
         font-family: Proxima Nova;
@@ -1631,10 +1629,10 @@ h1 {
         line-height: 106%;
         margin-top: 25px; }
         @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003179}}
           .box .info-block-two .text p {
             font-size: 22px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003189}}
     .box .info-block-two .image {
       display: block;
       width: 420px;
@@ -1643,10 +1641,10 @@ h1 {
       left: 60px;
       bottom: 0px; }
       @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003189}}
         .box .info-block-two .image {
           display: none; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003199}}
   .box .button {
     color: #FFF;
     text-align: center;
@@ -1665,27 +1663,30 @@ h1 {
     margin: 120px auto;
     -webkit-transition: 0.5s;
     transition: 0.5s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003216}}
     .box .button:hover {
       -webkit-box-shadow: 0px 3.263px 0px 0px #002D46, 0px 2.15px 2.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 50.817px 0px rgba(81, 224, 255, 0.7), 0px 5px 0px 0px #002D46;
               box-shadow: 0px 3.263px 0px 0px #002D46, 0px 2.15px 2.15px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 50.817px 0px rgba(81, 224, 255, 0.7), 0px 5px 0px 0px #002D46; }
     @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003199}}
       .box .button {
         margin: 50px auto; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003221}}
+  .box .startButton {
+    cursor: pointer; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003224}}
 ::-webkit-scrollbar {
   height: 1px;
   width: 8px;
   background: #005483; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003229}}
 ::-webkit-scrollbar-thumb {
   background: #fff;
   -webkit-border-radius: 1ex;
   -webkit-box-shadow: 0px 0px 10px #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003230}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Place\%20for\%20practice\/Marry-Christmas\/sass\/style\.sass}line{font-family:\00003234}}
 ::-webkit-scrollbar-corner {
   background: #005483; }

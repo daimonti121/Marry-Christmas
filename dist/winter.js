@@ -14,12 +14,12 @@ let snowmax = 40,
     crds = new Array(),
     lftrght = new Array();
 
-    function randommaker(range) {
+function randommaker(range) {
     rand = Math.floor(range * Math.random());
     return rand;
-    }
+}
 
-    function initsnow() {
+function initsnow() {
     marginbottom = window.innerHeight;
     marginright = window.innerWidth;
     let snowsizerange = snowmaxsize - snowminsize;
@@ -35,32 +35,32 @@ let snowmax = 40,
         snow[i].sink = sinkspeed * snow[i].size / 5;
         snow[i].posx = randommaker(marginright - snow[i].size);
         snow[i].posy = randommaker(
-        2 * marginbottom - marginbottom - 2 * snow[i].size
+            2 * marginbottom - marginbottom - 2 * snow[i].size
         );
         snow[i].style.left = snow[i].posx;
         snow[i].style.top = snow[i].posy;
     }
     movesnow();
-    }
+}
 
-    function movesnow() {
+function movesnow() {
     for (i = 0; i <= snowmax; i++) {
         crds[i] += x_mv[i];
         snow[i].posy += snow[i].sink;
         snow[i].style.left = snow[i].posx + lftrght[i] * Math.sin(crds[i]) + "px";
         snow[i].style.top = snow[i].posy + "px";
         if (
-        snow[i].posy >= marginbottom - 2 * snow[i].size ||
-        parseInt(snow[i].style.left) > marginright - 3 * lftrght[i]
+            snow[i].posy >= marginbottom - 2 * snow[i].size ||
+            parseInt(snow[i].style.left) > marginright - 3 * lftrght[i]
         ) {
-        snow[i].posx = randommaker(marginright - snow[i].size);
-        snow[i].posy = 0;
+            snow[i].posx = randommaker(marginright - snow[i].size);
+            snow[i].posy = 0;
         }
     }
     let timer = setTimeout("movesnow()", 50);
-    }
+}
 
-    for (i = 0; i <= snowmax; i++) {
+for (i = 0; i <= snowmax; i++) {
     document.write(
         "<span id='s" +
         i +
@@ -70,6 +70,6 @@ let snowmax = 40,
         snowletter +
         "</span>"
     );
-    }
+}
 
-    initsnow();
+initsnow();

@@ -3,7 +3,6 @@
 @import "jquery-quiz"
 @import "win"
 
-
 #quiz-buttons a, .quiz-container .quiz-button
     color: #FFF
     text-align: center
@@ -27,7 +26,7 @@
 .quesions__container
     animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
 
-.answers 
+.answers
     list-style: none
     padding: 0
     display: flex
@@ -53,10 +52,10 @@
     border-radius: 15px
     &:hover
         background: rgba(255, 255, 255, 0.20)
-.answers a 
+.answers a
     background-color: transparent
 
-.question 
+.question
     font-family: 'Ghoulish Fright AOE'
     font-style: normal
     font-weight: 400
@@ -67,12 +66,12 @@
     color: #FFFFFF
     margin-bottom: 70px
 
-#quiz-header 
+#quiz-header
     img
         width: 286px
         height: auto
 
-.answers a.correct 
+.answers a.correct
     background: transparent
 
 .answers a.incorrect
@@ -81,18 +80,17 @@
 .answers a.correct p
     border: 1px solid #00FF85
     background: #00FF85
-    box-shadow: 0px 0px 30px 0px rgba(0, 255, 133, 0.70)  
+    box-shadow: 0px 0px 30px 0px rgba(0, 255, 133, 0.70)
 
 .answers a.incorrect p
     border: 1px solid #FF6653
     background: #FF6653
-    
-#quiz-controls 
+
+#quiz-controls
     background: transparent
 
-.body-questions 
-    background: url('../img/backgraund-quiz.png') 50% 10%/cover no-repeat
-    background-color: #002d46
+.body-questions
+    display: none
 
 #quiz-response
     max-width: 910px
@@ -105,7 +103,6 @@
     line-height: 106%
     margin: 50px auto
     position: relative
-
 
 #quesions__img
     .display-block
@@ -127,19 +124,18 @@
     .image
         width: 98%
         border-radius: 15px
-        
-    
+
 .quiz-start-screen-text
     color: #FFF
     text-align: center
     font-family: Proxima Nova
-    font-size: 40px
+    font-size: 24px
     font-style: normal
     font-weight: 900
     line-height: 106%
     text-transform: uppercase
-    margin: 130px auto 55px
-    max-width: 910px
+    margin: 150px auto 55px
+    max-width: 800px
 
 .header-text
     width: 700px
@@ -197,19 +193,18 @@
 .down-header-text
     position: absolute
     top: -192px
-    left: calc(50% - 290px) 
+    left: calc(50% - 290px)
     color: #FFF
-    text-align: center 
+    text-align: center
     text-shadow: 0px 7px 0px rgba(0, 45, 70, 0.60)
     font-family: Rubik-Dirt
     font-size: 96px
     font-style: normal
     font-weight: 400
-    line-height: 106% 
+    line-height: 106%
     text-transform: uppercase
     +_1170
         top: -134px
-
 
 .mobile-1
     position: absolute
